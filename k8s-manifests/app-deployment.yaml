@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: akhil302/nodejs-crud-project:50944d2efbf7dd80a49382bad6085beb1da46d9f
+        image: akhil302/nodejs-crud-project:0c0bd2bc8caa29734148ff786298179db3ea9d36
         ports:
         - containerPort: 5000
         env:
