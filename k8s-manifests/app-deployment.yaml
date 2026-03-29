@@ -13,8 +13,6 @@ spec:
       labels:
         app: nodejs-app
     spec:
-      imagePullSecrets:
-      - name: regcred
       containers:
       - name: nodejs-app
         image: akhil302/nodejs-crud-project:50944d2efbf7dd80a49382bad6085beb1da46d9f
